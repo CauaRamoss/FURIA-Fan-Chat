@@ -23,8 +23,10 @@ function botResponse(userMessage) {
         response = "Line-up atual: KSCERATO, yuurih, chelo, FalleN e arT.";
       } else if (userMessage.includes("torcida") || userMessage.includes("vamo furia")) {
         response = "É O BRASILZÃO EM PESO! 🇧🇷🐆 #VamoFURIA";
+      } else if (userMessage.includes("curiosidade")) {
+        response = "A FURIA foi o primeiro time brasileiro de CS:GO a criar uma gaming house internacional, nos Estados Unidos, focada 100% em treinamento de alto rendimento!"
       } else {
-        response = "Comandos Furiosos: jogo, time ou torcida! #VamoFURIA";
+        response = "Comandos Furiosos: jogo, time, torcida ou curiosidade! #VamoFURIA";
       }
 
       setTimeout(() => {
