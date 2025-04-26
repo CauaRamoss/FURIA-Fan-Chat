@@ -33,10 +33,11 @@ body {
 }
 
 .chat-messages {
-    flex: 1;
-    padding: 15px;
+    height: 400px;
     overflow-y: auto;
-    background-color: #2a2a2a;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .message {
@@ -60,7 +61,7 @@ body {
 .chat-input button {
     padding: 10px 15px;
     margin-left: 10px;
-    background-color: #00ff88;
+    background-color: #fff;
     color: #000;
     font-weight: bold;
     border: none;
@@ -70,5 +71,5 @@ body {
 }
 
 .chat-input button:hover {
-    background-color: #00cc6a;
+    background-color: #333;
 }
